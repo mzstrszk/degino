@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/*
+ * Degino Ver.1
+ * Copyright (c) 2009 Y.Tokutomi
+ * Licensed under GPLv3
+ * http://www.gnu.org/licenses/gpl-3.0.html
+ *
+ * info@degino.com
+ */
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+.bg_degino {
+	background-image: url(degino2.png);
+	background-repeat: no-repeat;
+	height: 200px;
+	text-align: right;
+}
+
+.btn_append {
+	background-image: url(/_resources/append.png) !important;
+}
+
+.btn_remove {
+	background-image: url(/_resources/remove.png) !important;
+}
+
+.btn_mode {
+	background-image: url(/_resources/mode.png) !important;
+}
+
+.btn_power {
+	background-image: url(/_resources/power.png) !important;
+}
+
+.btn_return {
+	background-image: url(/_resources/return.png) !important;
+}
+
+.page_header {
+	background-color: #dcdcdc;
+	background-repeat: no-repeat;
+	background-image: url(/_resources/degino_header.png) !important;
+}
+
+.page_footer {
+	background-color: #dcdcdc;
+	padding:	5px;
+}
+
+#menu dd {
+    float:			left;
+    width:			320px;
+    height:			160px;
+    margin:			5px 5px 5px 10px;
+    padding:		5px 5px 5px 5px;
+    cursor:			pointer;
+    zoom:			1;
+}
+#menu dd img {
+    width:			120px;
+    height:			120px;
+    margin:			5px 0 0 5px;
+    float:			left;
+}
+
+#menu dd h4 {
+    font-family:	tahoma,arial,san-serif;
+    color:			#555;
+    margin-top:		30px;
+    font-size:		11px;
+    font-weight:	bold;
+}
+
+#menu dd h5 {
+    text-decoration: underline;
+    font-family:	tahoma,arial,san-serif;
+    color:			#555;
+    font-size: 10px		;
+}
+
+#menu dd p {
+    font-size:		11px;
+    color:			#777;
+    margin-right:	10px;
+}
+
+#menu .over {
+	background:		#ffffff url(/_resources/menu_bg_over.png) no-repeat;
+}
+
+#menu .thumb-wrap{
+	float: 				left;
+	margin:				4px;
+	margin-right:		0;
+	padding:			5px;
+}

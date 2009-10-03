@@ -1,0 +1,22 @@
+application: deginov1
+version: 1a
+runtime: python
+api_version: 1
+
+handlers:
+- url: /favicon.ico
+  static_files: favicon.ico
+  upload: favicon.ico
+
+- url: /test.html
+  static_files: test.html
+  upload: test.html
+
+- url: /_js
+  static_dir: _js
+
+- url: /_resources
+  static_dir: _resources
+
+- url: .*
+  script: main.py
